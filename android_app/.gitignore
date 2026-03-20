@@ -1,0 +1,7 @@
+# Flet build directory
+build/
+.flet/
+
+# Python
+__pycache__/
+*.pyc
