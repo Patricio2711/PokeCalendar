@@ -23,7 +23,7 @@ jobs:
         run: pip install flet
 
       - name: Build APK
-        run: cd android_app && flet build apk
+        run: cd android_app && yes | flet build apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
